@@ -4,5 +4,5 @@ My solutions to the Object-Oriented Design Homework at the University of Portlan
 ## Homework
 | Homework Instructions | Solutions |
 | - | - |
-| [1: Introduction](https://github.com/harringt23/CS371_labSolutions/blob/main/src/Lab1/Lab01_CS371_IntroToAndroidAndGit_ver10.docx) | [Lab 1](https://github.com/harringt23/CS371_labSolutions/tree/main/src/Lab1/Lab1_BirthdayCake-master)|
-| [2: Layouts](https://github.com/harringt23/CS371_labSolutions/blob/main/src/Lab2/Lab02_Layout_ver11.docx) | [Lab 2](https://github.com/harringt23/CS371_labSolutions/tree/main/src/Lab2/BirthdayCake-master2)
+| [1: Shape Matching](src/hw1/shape%20matching.pdf)| [Homework 1](https://github.com/harringt23/CS301_homeworkSolutions/tree/main/src/hw2/hw2_harringt23)|
+| [2: 15-Square Puzzle](src/hw2/HW2_15squarePuzzle.pdf)| [Lab 2](https://github.com/harringt23/CS371_labSolutions/tree/main/src/Lab2/BirthdayCake-master2)
