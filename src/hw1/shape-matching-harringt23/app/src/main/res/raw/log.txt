@@ -1,0 +1,36 @@
+Brynn Harrington
+CS 301A - Fall 2021
+Professor Tribelhorn
+September 13, 2021
+Log File
+1. I misread the instructions as blue being empty and red as full when it was
+actually the reverse, once I learned this I realized the program was actually
+running properly.
+2. I had access issues since I did not use the “this” keyword when accessing shape or world.
+I resolved this by reviewing my Java notes from CS 203 and added them in upon the access.
+3. I misunderstood the instructions and did not realize that the orientations had to
+be rotated within our code (that there was not already a function). I implemented them much
+later as a result but it greatly helped to fix the problems I was having in solving the shape.
+4. I tried to put all the functions into the solve method (I did not realize helper methods
+were allowed) which exponentially increased my runtime and caused it to crash the app
+frequently, but after splitting the methods up I managed to get the program to stay on.
+5. I struggled a lot with figuring out the correct way to rotate the shape to match
+orientations and realized I had clockwise and counterclockwise switched, I used this
+resource as a reference to see how to rotate correctly:
+https://www.geeksforgeeks.org/array-rotation/
+After figuring out how to rotate counterclockwise, the other rotations were much simpler.
+6. I figured out that the for loop I originally had in my solve function returned enums
+and not integers so had to update my “rotation” method to account for this.
+7. I had my return true statement before the “display” call and realized the issue was
+the order that the code was being compiled in made the display call unreachable.
+8. I realized I needed an “if” statement to account for the world being a smaller length
+than the shape since it is more than likely the shape would be unsolvable if the shape was
+bigger than the world itself.
+9. I found that the "rotate180" function was not working correctly because I had only
+considered shapes of even length. However, after adding accommodations for shapes of
+odd length it functioned correctly. I used this source to get an idea of how to deal with
+odd lengths:
+https://www.techiedelight.com/inplace-rotate-matrix-180-degrees/
+10. I tried implementing the check method with BFS (binary-first-search) but could not get it
+functioning properly. I know the runtime with the way I did it is much greater but ran out of
+time.
